@@ -1,434 +1,481 @@
-// import house images
-import House1 from './assets/img/houses/house1.png';
-import House2 from './assets/img/houses/house2.png';
-import House3 from './assets/img/houses/house3.png';
-import House4 from './assets/img/houses/house4.png';
-import House5 from './assets/img/houses/house5.png';
-import House6 from './assets/img/houses/house6.png';
-import House7 from './assets/img/houses/house7.png';
-import House8 from './assets/img/houses/house8.png';
-import House9 from './assets/img/houses/house9.png';
-import House10 from './assets/img/houses/house10.png';
-import House11 from './assets/img/houses/house11.png';
-import House12 from './assets/img/houses/house12.png';
-// import house large images
-import House1Lg from './assets/img/houses/house1lg.png';
-import House2Lg from './assets/img/houses/house2lg.png';
-import House3Lg from './assets/img/houses/house3lg.png';
-import House4Lg from './assets/img/houses/house4lg.png';
-import House5Lg from './assets/img/houses/house5lg.png';
-import House6Lg from './assets/img/houses/house6lg.png';
-import House7Lg from './assets/img/houses/house7lg.png';
-import House8Lg from './assets/img/houses/house8lg.png';
-import House9Lg from './assets/img/houses/house9lg.png';
-import House10Lg from './assets/img/houses/house10lg.png';
-import House11Lg from './assets/img/houses/house11lg.png';
-import House12Lg from './assets/img/houses/house12lg.png';
+/////////////////IMAGENES PEQUENAS//////////////////////////////////////
 
-// import apartments images
-import Apartment1 from './assets/img/apartments/a1.png';
-import Apartment2 from './assets/img/apartments/a2.png';
-import Apartment3 from './assets/img/apartments/a3.png';
-import Apartment4 from './assets/img/apartments/a4.png';
-import Apartment5 from './assets/img/apartments/a5.png';
-import Apartment6 from './assets/img/apartments/a6.png';
-// import apartments large images
-import Apartment1Lg from './assets/img/apartments/a1lg.png';
-import Apartment2Lg from './assets/img/apartments/a2lg.png';
-import Apartment3Lg from './assets/img/apartments/a3lg.png';
-import Apartment4Lg from './assets/img/apartments/a4lg.png';
-import Apartment5Lg from './assets/img/apartments/a5lg.png';
-import Apartment6Lg from './assets/img/apartments/a6lg.png';
+// importar imagenes 7ma categoria pequenas
+import Septima1 from './assets/img/Categorias/7ma/Septima1.png';
+import Septima2 from './assets/img/Categorias/7ma/Septima2.png';
+import Septima3 from './assets/img/Categorias/7ma/Septima3.png';
 
-// import agents images
-import Agent1 from './assets/img/agents/agent1.png';
-import Agent2 from './assets/img/agents/agent2.png';
-import Agent3 from './assets/img/agents/agent3.png';
-import Agent4 from './assets/img/agents/agent4.png';
-import Agent5 from './assets/img/agents/agent5.png';
-import Agent6 from './assets/img/agents/agent6.png';
-import Agent7 from './assets/img/agents/agent7.png';
-import Agent8 from './assets/img/agents/agent8.png';
-import Agent9 from './assets/img/agents/agent9.png';
-import Agent10 from './assets/img/agents/agent10.png';
-import Agent11 from './assets/img/agents/agent11.png';
-import Agent12 from './assets/img/agents/agent12.png';
+//importar imagenes 6ta categoria pequenas
+import Sexta1 from './assets/img/Categorias/6ta/Sexta1.png'
+import Sexta2 from './assets/img/Categorias/6ta/Sexta2.png'
+import Sexta3 from './assets/img/Categorias/6ta/Sexta3.png'
+import Sexta4 from './assets/img/Categorias/6ta/Sexta4.png'
 
-export const housesData = [
+//importar imagenes 5ta categoria pequenas
+import Quinta1 from './assets/img/Categorias/5ta/Quinta1.png'
+import Quinta2 from './assets/img/Categorias/5ta/Quinta2.png'
+import Quinta3 from './assets/img/Categorias/5ta/Quinta3.png'
+
+//importar imagenes 4ta categoria pequenas 
+import Cuarta1 from './assets/img/Categorias/4ta/Cuarta1.png'
+import Cuarta2 from './assets/img/Categorias/4ta/Cuarta2.png'
+
+// importar imagenes suma8 pequenas (apartmentss)
+import Sum81 from './assets/img/Categorias/suma8/sum81.png'
+import Sum82 from './assets/img/Categorias/suma8/sum82.png'
+import Sum83 from './assets/img/Categorias/suma8/sum83.png'
+
+//Importar imagenes 3era y 4ta femenino pequenas (apartmentss)
+import Fem1 from './assets/img/Categorias/feme/fem1.png'
+import Fem2 from './assets/img/Categorias/feme/fem2.png'
+import Fem3 from './assets/img/Categorias/feme/fem3.png'
+
+//TOTAL= 18 imagenes
+
+////////////////////////IMAGENES GRANDESSS////////////////////////////////
+
+// importar imagenes 7ma categoria grandess
+import Septima1LG from './assets/img/Categorias/7ma/Septima1LG.png';
+import Septima2LG from './assets/img/Categorias/7ma/Septima2LG.png';
+import Septima3LG from './assets/img/Categorias/7ma/Septima3LG.png';
+
+//importar imagenes 6ta categoria grandes 
+import Sexta1LG from './assets/img/Categorias/6ta/Sexta1LG.png'
+import Sexta2LG from './assets/img/Categorias/6ta/Sexta2LG.png'
+import Sexta3LG from './assets/img/Categorias/6ta/Sexta3LG.png'
+import Sexta4LG from './assets/img/Categorias/6ta/Sexta4LG.png'
+
+//importar imagenes 5ta categoria grandes
+import Quinta1LG from './assets/img/Categorias/5ta/Quinta1LG.png'
+import Quinta2LG from './assets/img/Categorias/5ta/Quinta2LG.png'
+import Quinta3LG from './assets/img/Categorias/5ta/Quinta3LG.png'
+
+
+//importar imagenes 4ta categoria grandes
+
+import Cuarta1LG from './assets/img/Categorias/4ta/Cuarta1LG.png'
+import Cuarta2LG from './assets/img/Categorias/4ta/Cuarta2LG.png'
+
+// importar imagenes suma 8 grandess (apartmentss)
+import Sum81LG from './assets/img/Categorias/suma8/sum81LG.png'
+import Sum82LG from './assets/img/Categorias/suma8/sum82LG.png'
+import Sum83LG from './assets/img/Categorias/suma8/sum83LG.png'
+
+//Importar imaganes 3era y 4ta femenino grandes (apartmentss)
+import Fem1LG from './assets/img/Categorias/feme/fem1LG.png'
+import Fem2LG from './assets/img/Categorias/feme/fem2LG.png'
+import Fem3LG from './assets/img/Categorias/feme/fem3LG.png'
+
+//TOTAL= 18 imagenes
+
+
+// importar imagenes de los organizadores
+import organizador1 from './assets/img/organizadores/organizador1.png';
+import organizador2 from './assets/img/organizadores/organizador2.png';
+import organizador3 from './assets/img/organizadores/organizador3.png';
+import organizador4 from './assets/img/organizadores/organizador4.png';
+import organizador5 from './assets/img/organizadores/organizador5.png';
+import organizador6 from './assets/img/organizadores/organizador6.png';
+import organizador7 from './assets/img/organizadores/organizador7.png';
+import organizador8 from './assets/img/organizadores/organizador8.png';
+import organizador9 from './assets/img/organizadores/organizador9.png';
+import organizador10 from './assets/img/organizadores/organizador10.png';
+import organizador11 from './assets/img/organizadores/organizador11.png';
+import organizador12 from './assets/img/organizadores/organizador12.png';
+
+export const torneosData = [
   {
     id: 1,
-    type: 'House',
-    name: 'House 1',
+    categoria: '7ma',
+    name: 'Americano By Lider Sport Center',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House1,
-    imageLg: House1Lg,
-    country: 'United States',
-    address: '7240C Argyle St. Lawndale, CA 90260',
-    bedrooms: '6',
-    bathrooms: '3',
-    surface: '4200 sq ft',
-    year: '2016',
-    price: '110000',
-    agent: {
-      image: Agent1,
+    image: Septima1,
+    imageLg: Septima1LG,
+    club: 'Lider Sport Center',
+    address: 'C.C. Lider, 1071, Caracas 1071, Miranda, Venezuela',
+    fecha: '26/01/24',
+    inscipcion: '50$ p/p',
+    premio: '120$',
+    hora: '6:00pm',
+    duplas: '20',
+    mes: 'Enero',
+    organizador: {
+      image: organizador1,
       name: 'Patricia Tullert',
       phone: '0123 456 78910',
     },
   },
   {
     id: 2,
-    type: 'House',
-    name: 'House 2',
+    categoria: '7ma',
+    name: 'Americano 7ma Categoria Venplay',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House2,
-    imageLg: House2Lg,
-    country: 'Canada',
-    address: '798 Talbot St. Bridgewater, NJ 08807',
-    bedrooms: '6',
-    bathrooms: '3',
-    surface: '4200 sq ft',
-    year: '2016',
-    price: '140000',
-    agent: {
-      image: Agent2,
+    image: Septima2,
+    imageLg: Septima2LG,
+    club: 'Venplay - Cerro Verde',
+    address: 'Urb. Los Naranjos, nivel azotea C.C. Cerro Verde',
+    fecha: '02/02/2024',
+    inscipcion: '60$ p/p',
+    premio: '300$',
+    hora: '27:30am',
+    duplas: '14',
+    mes: 'Febrero',
+    organizador: {
+      image: organizador2,
       name: 'Daryl Hawker',
       phone: '0123 456 78910',
     },
   },
   {
     id: 3,
-    type: 'House',
-    name: 'House 3',
+    categoria: '7ma',
+    name: 'Americano con Clinica de Padel',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House3,
-    imageLg: House3Lg,
-    country: 'United States',
-    address: '2 Glen Creek St. Alexandria, VA 22304',
-    bedrooms: '6',
-    bathrooms: '3',
-    surface: '4200 sq ft',
-    year: '2016',
-    price: '170000',
-    agent: {
-      image: Agent3,
+    image: Septima3,
+    imageLg: Septima3LG,
+    club: 'Master Padel - Los Samanes',
+    address: 'Urb. Los Samanes diagonal al Colegio Americano',
+    fecha: '31/01/24',
+    inscipcion: '120$ Dupla',
+    premio: '350$',
+    hora: '7:30pm',
+    duplas: '24',
+    mes: 'Enero',
+    organizador: {
+      image: organizador3,
       name: 'Amado Smith',
       phone: '0123 456 78910',
     },
   },
   {
     id: 4,
-    type: 'House',
-    name: 'House 4',
+    categoria: '6ta',
+    name: 'Torneo Americano de Carnaval',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House4,
-    imageLg: House4Lg,
-    country: 'Canada',
-    address: '84 Woodland St. Cocoa, FL 32927',
-    bedrooms: '6',
-    bathrooms: '3',
-    surface: '4200 sq ft',
-    year: '2016',
-    price: '200000',
-    agent: {
-      image: Agent4,
+    image: Sexta1,
+    imageLg: Sexta1LG,
+    club: 'CLub Padel Venezuela',
+    address: 'Autopista Caracas - Guarenas, frente a entrada de USM',
+    fecha: '09/02/24',
+    inscipcion: '30$ p/p',
+    premio: '120$',
+    hora: '3:00pm',
+    duplas: '20',
+    mes: 'Febrero',
+    organizador: {
+      image: organizador4,
       name: 'Kaitlyn Gonzalez',
       phone: '0123 456 78910',
     },
   },
   {
     id: 5,
-    type: 'House',
-    name: 'House 5',
+    categoria: '6ta',
+    name: 'Torneo Americano Bullpadel',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House5,
-    imageLg: House5Lg,
-    country: 'United States',
-    address: '28 Westport Dr. Warminster, PA 18974',
-    bedrooms: '5',
-    bathrooms: '3',
-    surface: '4200 sq ft',
-    year: '2015',
-    price: '210000',
-    agent: {
-      image: Agent5,
+    image: Sexta2,
+    imageLg: Sexta2LG,
+    club: 'Wild Padel (Avepane)',
+    address: 'Avenida La Guairita, Benzecri de Benmergui, Calle Reyna',
+    fecha: '15/03/24',
+    inscipcion: '60$ p/p',
+    premio: '300$',
+    hora: '8:00 am',
+    duplas: '24',
+    mes: 'Marzo',
+    organizador: {
+      image: organizador5,
       name: 'Grover Robinson',
       phone: '0123 456 78910',
     },
   },
   {
     id: 6,
-    type: 'House',
-    name: 'House 6',
+    categoria: '6ta',
+    name: 'Americano Padel 159',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House6,
-    imageLg: House6Lg,
-    country: 'Canada',
-    address: '32 Pawnee Street Butte, MT 59701',
-    bedrooms: '6',
-    bathrooms: '3',
-    surface: '6200 sq ft',
-    year: '2014',
-    price: '220000',
-    agent: {
-      image: Agent6,
+    image: Sexta3,
+    imageLg: Sexta3LG,
+    club: 'Padel 159',
+    address: 'Urb. San Luis - El Cafetal',
+    fecha: '06/06/02',
+    inscipcion: '30$ p/p',
+    premio: '100$',
+    hora: '6:00pm',
+    duplas: '12',
+    mes: 'Febrero',
+    organizador: {
+      image: organizador6,
       name: 'Karen Sorensen',
       phone: '0123 456 78910',
     },
   },
   {
     id: 7,
-    type: 'Apartament',
-    name: 'Apartament 1',
+    categoria: '6ta',
+    name: 'Americano Sabado San Luis',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: Apartment1,
-    imageLg: Apartment1Lg,
-    country: 'Canada',
-    address: '32 Pawnee Street Butte, MT 59701',
-    bedrooms: '2',
-    bathrooms: '1',
-    surface: '1200 sq ft',
-    year: '2012',
-    price: '20000',
-    agent: {
-      image: Agent7,
+    image: Sexta4,
+    imageLg: Sexta4LG,
+    club: 'Centro Deportivo San Luis',
+    address: 'Urb. San Luis - El Cafetal',
+    fecha: '23/03/24',
+    inscipcion: '120$ Dupla',
+    premio: '250$',
+    hora: '8:00am',
+    duplas: '20',
+    mes: 'Marzo',
+    organizador: {
+      image: organizador7,
       name: 'Jawhar Shamil Naser',
       phone: '0123 456 78910',
     },
   },
   {
     id: 8,
-    type: 'Apartament',
-    name: 'Apartament 2',
+    categoria: '5ta',
+    name: 'Americano Pala Gigante',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: Apartment2,
-    imageLg: Apartment2Lg,
-    country: 'United States',
-    address: '28 Westport Dr. Warminster, PA 18974',
-    bedrooms: '3',
-    bathrooms: '1',
-    surface: '1000 sq ft',
-    year: '2011',
-    price: '30000',
-    agent: {
-      image: Agent8,
+    image: Quinta1,
+    imageLg: Quinta1LG,
+    club: 'Club Libano',
+    address: 'Avenida Rio de Oro, Caracas 1080, Miranda, Venezuela',
+    fecha: '03/02/24',
+    inscipcion: '100$ Dupla',
+    premio: '320$',
+    hora: '7:30pm',
+    duplas: '20',
+    mes: 'Febrero',
+    organizador: {
+      image: organizador8,
       name: 'Juana Douglass',
       phone: '0123 456 78910',
     },
   },
   {
     id: 9,
-    type: 'Apartament',
-    name: 'Apartament 3',
+    categoria: '5ta',
+    name: 'Head Padel American Tournament',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: Apartment3,
-    imageLg: Apartment3Lg,
-    country: 'United States',
-    address: '84 Woodland St. Cocoa, FL 32927',
-    bedrooms: '2',
-    bathrooms: '1',
-    surface: '1100 sq ft',
-    year: '2011',
-    price: '40000',
-    agent: {
-      image: Agent9,
+    image: Quinta2,
+    imageLg: Quinta2LG,
+    club: 'Capital Sports Padel Center',
+    address: 'Urb. Santa Fe, Caracas 1080, Miranda, Venezuela',
+    fecha: '20/02/24',
+    inscipcion: '100$ p/p',
+    premio: '400$',
+    hora: '7:00pm',
+    duplas: '25',
+    mes: 'Febrero',
+    organizador: {
+      image: organizador9,
       name: 'Jerry Schenck',
       phone: '0123 456 78910',
     },
   },
   {
     id: 10,
-    type: 'House',
-    name: 'House 7',
+    categoria: '5ta',
+    name: 'Liga de Padel Universitaria',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House7,
-    imageLg: House7Lg,
-    country: 'Canada',
-    address: '7240C Argyle St. Lawndale, CA 90260',
-    bedrooms: '5',
-    bathrooms: '3',
-    surface: '3200 sq ft',
-    year: '2015',
-    price: '117000',
-    agent: {
-      image: Agent10,
+    image: Quinta3,
+    imageLg: Quinta3LG,
+    club: 'Universidad Metropolitana',
+    address: 'Autopista Caracas - Guarenas Ditribuidor metropolitano',
+    fecha: '05/03/24 - 09/03/24',
+    inscipcion: '3o$ p/p',
+    premio: '120$',
+    hora: '5:00pm - 9:00pm',
+    duplas: '24',
+    mes: 'Marzo',
+    organizador: {
+      image: organizador10,
       name: 'Vera Levesque',
       phone: '0123 456 78910',
     },
   },
   {
     id: 11,
-    type: 'House',
-    name: 'House 8',
+    categoria: '4ta',
+    name: 'Padel Action Americano',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House8,
-    imageLg: House8Lg,
-    country: 'Canada',
-    address: '798 Talbot St. Bridgewater, NJ 08807',
-    bedrooms: '7',
-    bathrooms: '2',
-    surface: '2200 sq ft',
-    year: '2019',
-    price: '145000',
-    agent: {
-      image: Agent11,
+    image: Cuarta1,
+    imageLg: Cuarta1LG,
+    club: 'Padel Venezuela Ucab',
+    address: 'Avenida Teherán, Caracas 1020, Distrito Capital, Venezuela',
+    fecha: '07/05/24',
+    inscipcion: '50$ Dupla',
+    premio: '200$ ',
+    hora: '7:30pm',
+    duplas: '12',
+    mes: 'Mayo',
+    organizador: {
+      image: organizador11,
       name: 'Sofia Gomes',
       phone: '0123 456 78910',
     },
   },
   {
     id: 12,
-    type: 'House',
-    name: 'House 9',
+    categoria: '4ta',
+    name: 'Viborahaus Entre Panas',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House9,
-    imageLg: House9Lg,
-    country: 'United States',
-    address: '2 Glen Creek St. Alexandria, VA 22304',
-    bedrooms: '4',
-    bathrooms: '4',
-    surface: '4600 sq ft',
-    year: '2015',
-    price: '139000',
-    agent: {
-      image: Agent12,
+    image: Cuarta2,
+    imageLg: Cuarta2LG,
+    club: 'Viborahaus La Boyera',
+    address: 'Polideportivo La Boyera, Urbanizacion, Av. 3, Caracas 1083, Miranda, Venezuela',
+    fecha: '04/05/24',
+    inscipcion: '40$ p/p',
+    premio: '150$',
+    hora: '6:30pm',
+    duplas: '12',
+    mes: 'Mayo',
+    organizador: {
+      image: organizador12,
       name: 'Raymond Hood',
       phone: '0123 456 78910',
     },
   },
   {
     id: 13,
-    type: 'House',
-    name: 'House 10',
+    categoria: '3era Femenino',
+    name: 'Woman Padel Power',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House10,
-    imageLg: House10Lg,
-    country: 'Canada',
-    address: '84 Woodland St. Cocoa, FL 32927',
-    bedrooms: '5',
-    bathrooms: '2',
-    surface: '5200 sq ft',
-    year: '2014',
-    price: '180000',
-    agent: {
-      image: Agent1,
+    image: Fem1,
+    imageLg: Fem1LG,
+    club: 'Padel CMDLT',
+    address: 'Centro Medico Docente La Trinidad, La boyera, Caracas',
+    fecha: '28/04/24',
+    inscipcion: '25$p/p',
+    premio: '100$',
+    hora: '9:00am',
+    duplas: '8',
+    mes: 'Abril',
+    organizador: {
+      image: organizador1,
       name: 'Patricia Tullert',
       phone: '0123 456 78910',
     },
   },
   {
     id: 14,
-    type: 'House',
-    name: 'House 11',
+    categoria: '3era + 4ta Femenino',
+    name: 'Padel Experience',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House11,
-    imageLg: House11Lg,
-    country: 'United States',
-    address: '28 Westport Dr. Warminster, PA 18974',
-    bedrooms: '5',
-    bathrooms: '2',
-    surface: '3200 sq ft',
-    year: '2011',
-    price: '213000',
-    agent: {
-      image: Agent2,
+    image: Fem2,
+    imageLg: Fem2LG,
+    club: 'Blue Padel Macaracuay',
+    address: ' Avenida Mara, C.C. Macaracuay Caracas',
+    fecha: '05/05/24',
+    inscipcion: '40$ Dupla',
+    premio: '110$',
+    hora: '8:30am',
+    duplas: '12',
+    mes: 'Mayo',
+    organizador: {
+      image: organizador2,
       name: 'Daryl Hawker',
       phone: '0123 456 78910',
     },
   },
   {
     id: 15,
-    type: 'House',
-    name: 'House 12',
+    categoria: '4ta Femenino',
+    name: 'Padel Wilson Pro Americano',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: House12,
-    imageLg: House12Lg,
-    country: 'Canada',
-    address: '32 Pawnee Street Butte, MT 59701',
-    bedrooms: '4',
-    bathrooms: '3',
-    surface: '5200 sq ft',
-    year: '2013',
-    price: '221000',
-    agent: {
-      image: Agent3,
+    image: Fem3,
+    imageLg: Fem3LG,
+    club: 'CCS Padel CLub',
+    address: 'Entre 5ta y, 2da avenida de, 6ta transversal, Los Palos Grandes, Miranda.',
+    fecha: '04/07/24',
+    inscipcion: '30$ p/p',
+    premio: '100$',
+    hora: '6:30pm',
+    duplas: '10',
+    mes: 'Julio',
+    organizador: {
+      image: organizador3,
       name: 'Amado Smith',
       phone: '0123 456 78910',
     },
   },
   {
     id: 16,
-    type: 'Apartament',
-    name: 'Apartament 16',
+    categoria: 'Suma 8',
+    name: 'Americano de Apertura Millenium Padel',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: Apartment4,
-    imageLg: Apartment4Lg,
-    country: 'Canada',
-    address: '32 Pawnee Street Butte, MT 59701',
-    bedrooms: '2',
-    bathrooms: '1',
-    surface: '1300 sq ft',
-    year: '2011',
-    price: '21000',
-    agent: {
-      image: Agent4,
+    image: Sum82,
+    imageLg: Sum82LG,
+    club: 'Millenium Padel',
+    address: 'Av. Rómulo Gallegos, con Av. Principal de La Carlota, La Carlota, Caracas',
+    fecha: '20/08/24',
+    inscipcion: '100$ Dupla',
+    premio: '300$',
+    hora: '7:00pm',
+    duplas: '14',
+    mes: 'Agosto',
+    organizador: {
+      image: organizador4,
       name: 'Kaitlyn Gonzalez',
       phone: '0123 456 78910',
     },
   },
   {
     id: 17,
-    type: 'Apartament',
-    name: 'Apartament 17',
+    categoria: 'Suma 8',
+    name: 'Americano Sub-23 de Caracas',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: Apartment5,
-    imageLg: Apartment5Lg,
-    country: 'United States',
-    address: '28 Westport Dr. Warminster, PA 18974',
-    bedrooms: '3',
-    bathrooms: '1',
-    surface: '1000 sq ft',
-    year: '2012',
-    price: '32000',
-    agent: {
-      image: Agent5,
+    image: Sum82,
+    imageLg: Sum82LG,
+    club: 'Blue Padel Macaracuay',
+    address: ' Avenida Mara, C.C. Macaracuay, Distrito Capital',
+    fecha: '30/06/24',
+    inscipcion: '100$ Dupla',
+    premio: '360$ ',
+    hora: '6:00pm',
+    duplas: '14',
+    mes: 'Junio',
+    organizador: {
+      image: organizador5,
       name: 'Grover Robinson',
       phone: '0123 456 78910',
     },
   },
   {
     id: 18,
-    type: 'Apartament',
-    name: 'Apartament 18',
+    categoria: 'Suma 8',
+    name: 'Alto Grande Tournament',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: Apartment6,
-    imageLg: Apartment6Lg,
-    country: 'Canada',
-    address: '84 Woodland St. Cocoa, FL 32927',
-    bedrooms: '3',
-    bathrooms: '1',
-    surface: '1200 sq ft',
-    year: '2010',
-    price: '38000',
-    agent: {
-      image: Agent6,
+    image: Sum83,
+    imageLg: Sum83LG,
+    club: 'Alto Grande - Master Padel',
+    address: 'Carr. Nacional Guarenas - Guatire, Guatire 1221, Miranda',
+    fecha: '30/03/24',
+    inscipcion: '100$ Dupla',
+    premio: '250$',
+    hora: '7:00pm',
+    duplas: '14',
+    mes: 'Marzo',
+    organizador: {
+      image: organizador6,
       name: 'Karen Sorensen',
       phone: '0123 456 78910',
     },
