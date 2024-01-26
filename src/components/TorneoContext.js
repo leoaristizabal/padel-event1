@@ -1,4 +1,4 @@
-import React, { useState, createContext } from "react";
+import React, { useState, createContext, useEffect } from "react";
 
 // Importar datos (en este caso, torneosData)
 import { torneosData } from "../data";
@@ -16,6 +16,26 @@ const TorneoContextProvider = ({ children }) => {
   const [categorias, setCategorias] = useState([]); // Conjunto de opciones de categorías
   const [mes, setMes] = useState("Meses (Todos)"); // Mes seleccionado
   const [loading, setLoading] = useState(false); // Indicador de carga
+
+  //return de todos los clubes en la data.
+  useEffect(() => {
+    const allClubes = torneos.map((torneo) => { //mapeo para encontrar cada torneo por separado del array Torneos data llamandolo solo torneo
+      return torneo.club; //despues devuelve el club de cada objeto por serado denominado torneo.
+    });
+    console.log(allClubes);
+
+    //En caso de haber clubes duplicados, los borramos/removemos (por ahora no hay):
+
+    const clubesUnicos = ["Clubes (Todos)", ...new Set(allClubes)];
+
+    {
+      /*console.log(clubesUnicos); //Prubea de que este funicionando*/
+    }
+
+    setClubes(clubesUnicos);
+  }, []);
+
+  //COnfigurar estados 'states' de los clubes'
 
   // Devuelve el componente TorneoContext.Provider con los valores que queremos compartir
   return (
