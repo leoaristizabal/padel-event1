@@ -33,7 +33,7 @@ const ClubDropdown = () => {
 
       {/* Lista de opciones del menú, define el area donde apareceran */}
       <Menu.Items className="dropdown-menu">
-        {/* Mapear sobre los clubes y mostrar cada opción */}
+        {/* Mapear sobre los clubes que existen en los objetos del torneo y mostrar cada opción */}
         {clubes.map((club, index) => {
           return (
             <Menu.Item //representa cada elemento de la lista del menu desplegable
